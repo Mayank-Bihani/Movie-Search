@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+.movie-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.pagination button , .pagination input{
+  margin: 10px;
+}
+
+.page-numbers {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.page-numbers a {
+  display: block;
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.page-numbers a.active {
+  background-color: #4285f4;
+  color: #fff;
+  border-color: #4285f4;
+}
+
+.star-rating {
+  font-size: 24px;
+}
+
+.star-rating > span {
+  display: inline-block;
+  width: 25px;
+  text-align: center;
+  margin-right: 2px;
+  color: #ccc;
+}
+
+.star-rating > span:hover,
+.star-rating > span.selected {
+  color: gold;
+}
+
+.rating-comment {
+  margin-top: 10px;
+}
+
+#movie-details {
+  display: none;
+}
+
+.movie-details-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-details-container h2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.movie-details-container p {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.movie-details-container img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.star-rating {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.star-rating > span {
+  display: inline-block;
+  width: 25px;
+  text-align: center;
+  margin-right: 2px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.star-rating > span:hover,
+.star-rating > span.selected {
+  color: gold;
+}
+
+.rating-comment textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.back-button {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.viewMore{
+  cursor: pointer;
+}
